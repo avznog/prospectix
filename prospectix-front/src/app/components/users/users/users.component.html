@@ -1,0 +1,16 @@
+<div class="flex justify-around p-5">
+  <label class="btn btn-outline" (click)="ngxSmartModalService.getModal('add-user').open()">Ajouter un utilisateur</label>
+</div>
+<div class="card">
+  <div class="card-body">
+    <app-list-users class="overflow-x-scroll"></app-list-users>
+  </div>
+</div>
+
+<div class="justify-center w-full pb-5 btn-group">
+  <button class="btn btn-ghost btn-outline {{usersService.researchParamsUsers.skip > 0 ? '' : 'btn-disabled'}}"
+    (click)="pageDown()">«</button>
+  <button class="btn btn-ghost btn-outline">Page {{usersService.researchParamsUsers.skip / 20 + 1}}</button>
+  <button class="btn btn-ghost btn-outline {{usersService.users && usersService.users.size <= 0 ? 'btn-disabled' : ''}}"
+    (click)="pageUp()">»</button>
+</div>

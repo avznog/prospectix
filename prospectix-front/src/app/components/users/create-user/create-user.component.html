@@ -1,0 +1,51 @@
+<div class="w-full p-5 card" [attr.data-theme]="dataThemeService.dataTheme">
+  <label class="text-lg font-bold">Ajouter un utilisateur</label>
+  <div class="divider"></div>
+  <div class="space-y-5">
+
+    <!-- Firstname -->
+    <label class="input-group">
+      <span>Prénom</span>
+      <input class="input input-bordered" type="text" placeholder="Ex: Benjamin" [(ngModel)]="firstname" />
+    </label>
+
+    <!-- Lastname -->
+    <label class="input-group">
+      <span>Nom</span>
+      <input class="input input-bordered" type="text" placeholder="Ex: Gonzva" [(ngModel)]="lastname"/>
+    </label>
+
+    <!-- Tel -->
+    <label class="input-group">
+      <span>Téléphone portable</span>
+      <input class="input input-bordered" type="text" placeholder="Ex: 06 54 34 23 32" [(ngModel)]="phone" maxlength="14"/>
+    </label>
+
+    <!-- Photo de profil -->
+    <label class="input-group">
+      <span>Lien de la photo de profil</span>
+      <input class="input input-bordered" type="url" placeholder="https://maphotodeprofil.com" [(ngModel)]="profilePictureLink"/>
+    </label>
+
+    <!-- Admin ? -->
+    <label class="input-group">
+      <span>Admin ?</span>
+      <input class="input input-bordered" type="checkbox" class="checkbox" [(ngModel)]="admin" />
+    </label>
+
+    <!-- Disabled ? -->
+    <label class="input-group">
+      <span>Disabled ? </span>
+      <input class="input input-bordered" type="checkbox" class="checkbox" [(ngModel)]="disabled" />
+    </label>
+
+    <!-- statsEnabled ? -->
+    <label class="input-group">
+      <span>Afficher dans les statistiques ? </span>
+      <input class="input input-bordered" type="checkbox" class="checkbox" [(ngModel)]="statsEnabled" />
+    </label>
+
+    <!-- Button -->
+    <label (click)="onCreateUser()" class="btn btn-outline btn-ghost">Créer l'utilisateur</label>
+  </div>
+</div>
