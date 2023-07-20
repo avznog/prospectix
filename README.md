@@ -3,7 +3,7 @@
   <a href="https://bgonzva.com/" target="_blank">bgonzva.com</a>
 </h2>
 <div align="center">
-  <img alt="Home page" src="./prospectix-front/src/assets/home-screen.png" />
+  <img alt="Home page" src="./assets/home-screen.png" />
 </div>
 
 <center>
