@@ -1,6 +1,7 @@
 <h2 align="center">
   Prospectix<br/>
-  <a href="https://bgonzva.com/" target="_blank">bgonzva.com</a>
+  <a style="font-size: 14px" href="https://prospectix.bgonzva.com/" target="_blank">prospectix.bgonzva.com</a><br >
+  <span style="font-size: 11px">by</span> <a style="font-size: 11px" href="https://bgonzva.com/" target="_blank">bgonzva.com</a>
 </h2>
 <div align="center">
   <img alt="Home page" src="./assets/home-screen.png" />
