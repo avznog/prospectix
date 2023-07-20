@@ -1,3 +1,6 @@
 [submodule "prospectix-back"]
 	path = prospectix-back
 	url = git@github.com:avznog/prospectix-back.git
+[submodule "prospectix-front"]
+	path = prospectix-front
+	url = git@github.com:avznog/prospectix-front.git
