@@ -1,0 +1,3 @@
+[submodule "prospectix-back"]
+	path = prospectix-back
+	url = git@github.com:avznog/prospectix-back.git
